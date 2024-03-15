@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="clear-fixx">
+                    <div class="h-top">
+                        <div class="h-delivery">
+                            <a href="">
+                                <img src="../upload/images/delivery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="h-logo">
+                            <a href="">
+                                <!-- <img src="../upload/images/logo.png" alt="">                        
+                                <img src="../upload/images/logo_1.png" alt=""> -->
+                                <img src="../upload/images/logo_2.png" alt="">
+                            </a>                      
+                        </div>
+                        <div class="h-cart">
+                            <div class="login">
+                                <div class="login-text">
+                                    <a href="" class="text">
+                                        <span class="h-login-text">
+                                            Đăng Nhập
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="lang-wrapper">
+                                    <a href="" class="active">VN</a>
+                                    |
+                                    <a href="">EN</a>
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div class="cart-text">
+                                    <a href="cart.html" class="cart-toggle">
+                                        <span class="h-cart-text">
+                                            Thanh Toán
+                                            <i class='fas fa-shopping-cart'></i>
+                                            <!-- <ion-icon name="cart-outline"></ion-icon> -->
+                                        </span>
+                                        <!-- <span class="number">0</span> -->
+                                    </a>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="h-menu-box">
+                    <ul class="h-menu-main">
+                        <li class="active">
+                            <a href="/index.html">Trang Chủ</a>
+                        </li>
+                        <li class="">
+                            <a href="caphe.html">Cà Phê</a>
+                        </li>
+                        <li class="">
+                            <a href="tra.html">Trà</a>
+                        </li>
+                        <li class="">
+                            <a href="thucuong.html">thức uống</a>
+                        </li>
+                        <li class="">
+                            <a href="sanpham.html">sản phẩm</a>
+                        </li>
+                        <li class="">
+                            <a href="khuyenmai.html">khuyến mãi</a>
+                        </li>
+                        <li class="">
+                            <a href="vechungtoi.html">Về chúng tôi</a>
+                        </li>
+                        <li class="">
+                            <a href="the.html">thẻ</a>
+                        </li>
+                    </ul>
+                    <div class="h-search">
+                        <ul class="h-search-menu">
+                            <li>
+                                <a href="">
+                                    <img src="../upload/images/search_icon.svg" style="width: 18px;margin-top: 3px" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main class="main">
+       <section class="banner">
+            <div class="slide-box">
+                <div class="slide-main">
+                    <div class="w3-content w3-section item" style="width: 100%;">
+                        <img class="mySlides" src="../upload/images/banner.jpg" style="width:100%" height="450px">
+                        <img class="mySlides" src="../upload/images/banner1.png" style="width:100%" height="450px">
+                        <img class="mySlides" src="../upload/images/nav-thucuong.png" style="width:100%" height="450px">
+                    </div>
+                    <!-- <div class="item">
+                        <a href="" class="slide-img">
+                            <img src="../upload/images/banner.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="" class="slide-img">
+                            <img src="../upload/images/banner1.png" alt="" style="display: none;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="" class="slide-img">
+                            <img src="../upload/images/banner2.jpg" alt="" style="display: none;">
+                        </a>
+                    </div> -->
+                </div>
+                <div style="text-align:center" class="dot-active">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                  </div>
+            </div>
+       </section> 
+       <section class="lady-load">
+        <div class="container-post">
+            <div class="row row1">
+              <div class="col">
+                <div class="item-img">
+                    <img src="../upload/images/20649d183ca5f1-bannertrangchu.jpg" alt="">
+                </div>
+              </div>
+              <div class="col">
+                    <div class="item-text">
+                        <h3 class="title">
+                            TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ
+                        </h3>
+                        <p class="description">
+                            Trải qua hơn 50 năm chắt chiu tinh hoa từ những búp trà xanh 
+                            và hạt cà phê thượng hạng cùng mong muốn mang lại cho khách hàng
+                            những trải nghiệm giá trị nhất khi thưởng thức, Phúc Long liên tục 
+                            là thương hiệu tiên phong với nhiều ý tưởng sáng tạo đi đầu trong ngành trà và cà phê. 
+                            <br><br>
+                            Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hảo hạng khi được tạo ra từ
+                            sự phấn đấu không ngừng cùng niềm đam mê. Và chính kết nối dựa trên niềm tin, sự trung thực 
+                            và tin yêu sẽ góp phần mang đến những nét đẹp trong văn hóa thưởng trà và cà phê ngày càng bay cao, vươn xa.
+                        </p>
+                        <div class="more">
+                            <a href="" class="btn btn-default">Xem Thêm</a>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </section>
+       <section class="lady-load-last">
+        <div class="container-post">
+            <div class="row row2">
+                <div class="col">
+                    <div class="item-text">
+                        <h3 class="title">
+                            ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT HUYẾT
+                        </h3>
+                        <p class="description">
+                            Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và nhân viên của Phúc Long Coffee & Tea, qua 
+                            bao thế hệ, đã cùng nhau xây dựng, nuôi dưỡng niềm đam mê dành cho trà và cà phê với mong muốn được thử thách
+                             bản thân trong ngành dịch vụ năng động và sáng tạo.
+                        </p>
+                        <div class="more">
+                            <a href="" class="btn btn-default">Gia nhập đội ngũ phúc long</a>
+                        </div>
+                    </div>
+              </div>
+              <div class="col">
+                <div class="item-img">
+                    <img src="../upload/images/024b7d5e73bbb2-8ed98f521583690431954887e772tuyendung1.jpg" alt="">
+                </div>
+              </div>
+          </div>
+       </section>
+       <div class="home-section">
+            <section class="home-map">
+                <div class="container-fluid">
+                    <div class="map-info">
+                        <h3 class="heading">Hệ thống cửa hàng</h2>
+                    </div>
+                    <div class="map-chose">
+                            <select class="form-select-sm mb-3" id="city" aria-label=".form-select-sm">
+                            <option value="" selected>Chọn tỉnh thành</option>           
+                            </select>
+                                      
+                            <select class="form-select-sm mb-3" id="district" aria-label=".form-select-sm">
+                            <option value="" selected>Chọn quận huyện</option>
+                            </select>
+                            
+                            <select class="form-select-sm" id="ward" aria-label=".form-select-sm">
+                            <option value="" selected>Chọn phường xã</option>
+                            </select>
+                    </div>
+                    <h4 class="location-shop">Địa chỉ của hàng</h4>
+                    <ul class="map-info-list col-xs-12 col-md-6">
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20408)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20668)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20518)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20488)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20188)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>                                              
+                        <li class="location-info">
+                            <p>
+                                <a href="">Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a>
+                                <a href="" style="background-image: none;">Điện thoại: (028) 7100 1968 (Ext. 20648)</a>
+                                <button class="btn btn-outline-light">Xem chỉ đường</button>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+       </div>
+    </main>
+    <footer id="footer">
+        <div class="f-bot">
+            <div class="container-post">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12"> 
+                        <b>Trụ sở chính</b>: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719</br>
+                        do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021</br>
+                        <b>Nhà máy</b>: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br>
+                        <b>Địa chỉ</b>: Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé, quận 1, Hồ Chí Minh</br>
+                        <b>Điện thoại</b>: 1900 234 518 (Ext.9100/ 9102)</br>
+                        <b>Fax</b>: (028) 6263 0379 </br>
+                        <b class="w37">Email</b><span class="w4">:</span><span class="w1"> sales@phuclong.masangroup.com</span><br>
+                        <b class="w37"> </b><span class="w4"></span><span class="w1">  info2@phuclong.masangroup.com</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <label for="newsletter-email">Đăng ký nhận tin khuyến mãi</label>
+                        <form method="POST" action="" class="form-inline">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        
+                        </form>
+                        <br/>
+                        <ul class="policy">
+                            <li>
+                                <a href="">Chính sách đặt hàng</a>
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <div class="lang-wrapper">
+                            <a class="lang-item active" href="">VN</a> |
+                            <a class="lang-item" href="">EN</a>
+                        </div>
+                        <a href="" class="datthongbao">
+                            <img src="/../upload/images/dathongbao.png" class="">
+                        </a>
+                        
+                        <ul class="f-social">
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+     
+                        
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- select option  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script>
+        var citis = document.getElementById("city");
+        var districts = document.getElementById("district");
+        var wards = document.getElementById("ward");
+        var Parameter = {
+        url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json", 
+        method: "GET", 
+        responseType: "application/json", 
+        };
+        var promise = axios(Parameter);
+        promise.then(function (result) {
+        renderCity(result.data);
+        });
+
+        function renderCity(data) {
+        for (const x of data) {
+            citis.options[citis.options.length] = new Option(x.Name, x.Id);
+        }
+        citis.onchange = function () {
+            district.length = 1;
+            ward.length = 1;
+            if(this.value != ""){
+            const result = data.filter(n => n.Id === this.value);
+
+            for (const k of result[0].Districts) {
+                district.options[district.options.length] = new Option(k.Name, k.Id);
+            }
+            }
+        };
+        district.onchange = function () {
+            ward.length = 1;
+            const dataCity = data.filter((n) => n.Id === citis.value);
+            if (this.value != "") {
+            const dataWards = dataCity[0].Districts.filter(n => n.Id === this.value)[0].Wards;
+
+            for (const w of dataWards) {
+                wards.options[wards.options.length] = new Option(w.Name, w.Id);
+            }
+            }
+        };
+        }
+	</script>
+    <!-- slideshow -->
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500); // Change image every 2 seconds
+        }
+        </script>        
+        <script src="./json_sever/app.js"></script>
+</body>
+
+</html>

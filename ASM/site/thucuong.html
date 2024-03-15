@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/styleCart.css">
+</head>
+<body>
+  <div class="container-cart">
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="clear-fixx">
+                    <div class="h-top">
+                        <div class="h-delivery">
+                            <a href="">
+                                <img src="../upload/images/delivery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="h-logo">
+                            <a href="">
+                                <!-- <img src="../upload/images/logo.png" alt="">                        
+                                <img src="../upload/images/logo_1.png" alt=""> -->
+                                <img src="../upload/images/logo_2.png" alt="">
+                            </a>                      
+                        </div>
+                        <div class="h-cart">
+                            <div class="login">
+                                <div class="login-text">
+                                    <a href="" class="text">
+                                        <span class="h-login-text">
+                                            Đăng Nhập
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="lang-wrapper">
+                                    <a href="" class="active">VN</a>
+                                    |
+                                    <a href="">EN</a>
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div class="cart-text">
+                                    <a href="#" class="cart-toggle">
+                                        <span class="h-cart-text">
+                                            Thanh Toán
+                                            <i class='fas fa-shopping-cart'></i>
+                                        </span>   
+                                       <!-- <span class="number" id="slsp">0</span>                                       -->
+                                    </a>
+                                </div>                              
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slide Cart -->
+        <div class="listAddToCart">
+          <div class="cartt">
+            <h2>
+                GIỎ HÀNG
+                <hr>
+            </h2>
+
+            <div class="listCart" id="list-cart">
+    
+            </div>
+    
+            <div class="buttons">
+                <div class="close">
+                    CLOSE
+                </div>
+                <div class="checkout">
+                    <a href="checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- slide Cart -->
+        <div class="header-nav">
+            <div class="container">
+                <div class="h-menu-box">
+                    <ul class="h-menu-main">
+                        <li class="">
+                            <a href="/index.html">Trang Chủ</a>
+                        </li>
+                        <li class="">
+                            <a href="caphe.html">Cà Phê</a>
+                        </li>
+                        <li class="">
+                            <a href="tra.html">Trà</a>
+                        </li>
+                        <li class="active">
+                            <a href="thucuong.html">thức uống</a>
+                        </li>
+                        <li class="">
+                            <a href="sanpham.html">sản phẩm</a>
+                        </li>
+                        <li class="">
+                            <a href="khuyenmai.html">khuyến mãi</a>
+                        </li>
+                        <li class="">
+                            <a href="vechungtoi.html">Về chúng tôi</a>
+                        </li>
+                        <li class="">
+                            <a href="the.html">thẻ</a>
+                        </li>
+                    </ul>
+                    <div class="h-search">
+                        <ul class="h-search-menu">
+                            <li>
+                                <a href="">
+                                    <img src="../upload/images/search_icon.svg" style="width: 18px;margin-top: 3px" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <div class="slide-box">
+                <div class="slide-main">
+                    <div class="item">
+                        <a href="" class="slide-img">
+                            <img src="../upload/images/nav-thucuong.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+       </section> 
+       <section class="page-heading">
+            <div class="container-post">
+                <ul class="drinks">
+                    <li>
+                        <a href="index.html">trang chủ</a>
+                    </li>
+                    <li>
+                        / <a href="" class="active">thức uống</a>
+                    </li>
+                </ul>
+                <h1>Thức uống   </h1>
+            </div>
+            <ul class="menu">
+                <li class="active">
+                    <a href="" >Thức Uống</a>
+                </li>
+                <li>
+                    <a href="">Snacks</a>
+                </li>
+                <li>
+                    <a href="">Bekery</a>
+                </li>
+            </ul>
+       </section>
+       <section class="grid-item">
+        <div class="container-post">
+            <div class="row" id="list-product" class="products">
+                <div class="col-sm-6 col-xs-12 sticky" >
+                  <a href="" class="item-warpper">
+                    <span class="badge new">món mới</span>
+                    <img src="/../upload/images/product1.png" alt="" class="item-img img-responsive">                    
+                  </a>
+                  <div class="item-info">
+                    <div class="item-name">Trà Sữa Nhãn Sen</div>
+                    <div class="item-des"></div>
+                    <div class="item-price">55.000 đ</div>
+                    <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                  </div>
+                </div>
+                <div  class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product2.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Caramel Dừa Đá Xay</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product3.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Sữa Caramel</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product4.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Ô Long Dừa Caramel</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product3.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Nhãn Đá Xay</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product5.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Ô Long Mãng Cầu</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product6.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Chanh</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product7.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Sữa Matcha</div>
+                        <div class="item-des">Matcha Milk Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product8.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Đào Sữa</div>
+                        <div class="item-des">Peach Black Milk Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product9.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Chanh Đá Xay</div>
+                        <div class="item-des">Lime Ice Blended</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product10.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Matcha Đá Xay</div>
+                        <div class="item-des">Matcha Ice Blended</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product11.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Oreo Cà Phê Sữa Đá Xay</div>
+                        <div class="item-des">Oreo Espresso Ice Blended</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product12.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Cà Phê Đá Xay</div>
+                        <div class="item-des">Espresso Ice Blended</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product13.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Sữa Berry Berry</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product14.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Đào Đá Xay</div>
+                        <div class="item-des">Peach Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product15.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Sữa Chua Phúc Bồn Tử</div>
+                        <div class="item-des">Raspberry Yogurt with Orange</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product16.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Sữa Chua Xoài Đác Thơm</div>
+                        <div class="item-des">Mango Yogurt with Pineapple Dac Seed</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product17.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Đác Cam Đá Xay</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product18.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Cappuccino</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product19.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Đác Cam Đá Xay</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product20.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hoa Tuyết Berry Berry</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product21.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Latte</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product22.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Phin Sữa Đá</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product23.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Phin Đen Đá</div>
+                        <div class="item-des"></div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product24.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Lài Đác Thơm</div>
+                        <div class="item-des">Pineapple Dac Seed Jasmine Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product25.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Nhãn Sen</div>
+                        <div class="item-des">Longan Lotus Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product26.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Vải Lài</div>
+                        <div class="item-des">Lychee Jasmine Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product27.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Lucky Tea</div>
+                        <div class="item-des">Lucky Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product28.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Sữa</div>
+                        <div class="item-des">Black Milk Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product29.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Vanilla Latte</div>
+                        <div class="item-des">Vanilla Latte</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product30.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Hồng Trà Đào</div>
+                        <div class="item-des">Peach Black Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product31.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Sữa Phúc Long</div>
+                        <div class="item-des">Phuc Long Milk Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6 sticky product-item" style="background-image: none;">
+                    <a href="" class="item-warpper">
+                      <span class="badge new">món mới</span>
+                      <img src="/../upload/images/product32.png" alt="" class="item-img img-responsive center-block">
+                    </a>
+                    <div class="item-info">
+                        <div class="item-name">Trà Ô Long Dâu</div>
+                        <div class="item-des">Strawberry Oolong Tea</div>
+                        <div class="item-price">55.000 đ</div>
+                        <button class="btn btn-primary" style="text-decoration: none;">Đặt hàng</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+       </section>
+    </main>
+    <footer id="footer">
+        <div class="f-bot">
+            <div class="container-post">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12"> 
+                        <b>Trụ sở chính</b>: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719</br>
+                        do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021</br>
+                        <b>Nhà máy</b>: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br>
+                        <b>Địa chỉ</b>: Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé, quận 1, Hồ Chí Minh</br>
+                        <b>Điện thoại</b>: 1900 234 518 (Ext.9100/ 9102)</br>
+                        <b>Fax</b>: (028) 6263 0379 </br>
+                        <b class="w37">Email</b><span class="w4">:</span><span class="w1"> sales@phuclong.masangroup.com</span><br>
+                        <b class="w37"> </b><span class="w4"></span><span class="w1">  info2@phuclong.masangroup.com</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <label for="newsletter-email">Đăng ký nhận tin khuyến mãi</label>
+                        <form method="POST" action="" class="form-inline">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        
+                        </form>
+                        <br/>
+                        <ul class="policy">
+                            <li>
+                                <a href="">Chính sách đặt hàng</a>
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <div class="lang-wrapper">
+                            <a class="lang-item active" href="">VN</a> |
+                            <a class="lang-item" href="">EN</a>
+                        </div>
+                        <a href="" class="datthongbao">
+                            <img src="/../upload/images/dathongbao.png" class="">
+                        </a>
+                        
+                        <ul class="f-social">
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+  </div>
+    <script src="slideCart.js"></script>
+    <script src="/elaadmin-master/assets/js/json_sever/app.js"></script>
+  </body>
+</html>
